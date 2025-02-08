@@ -1,5 +1,5 @@
 {
-  "name": "angular-portal",
+  "name": "angular-error-component",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-portal": "node dist/angular-portal/server/server.mjs",
+    "serve:ssr:angular-error-component": "node dist/angular-error-component/server/server.mjs",
     "json:server": "json-server --watch ./public/db.json --port 3000"
   },
   "private": true,
