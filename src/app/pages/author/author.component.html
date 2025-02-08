@@ -1,0 +1,25 @@
+<div class="author-details">
+  <div class="container">
+    @if (errorMessage$ | async; as errorMessage) {
+      <error [errorMessage]="errorMessage" />
+    }
+
+    <mat-card appearance="outlined">
+      <mat-card-content>
+        <div class="author-details__header">
+          <h1 class="author-details__headerTitle">
+            {{ author?.name || "Unknown Author" }}
+
+            <mat-chip>{{ author?.birthYear ?? "Unknown" }}</mat-chip>
+          </h1>
+          <p>{{ author?.bio || "No biography available." }}</p>
+        </div>
+        <div class="author-details__content">
+          <div class="author-details__content__right">
+            <p>Nationality: {{ author?.nationality || "Unknown" }}</p>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

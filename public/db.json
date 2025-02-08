@@ -1,0 +1,224 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": {
+        "id": 1,
+        "name": "F. Scott Fitzgerald"
+      },
+      "year": 1925,
+      "genre": "Novel"
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": {
+        "id": 2,
+        "name": "Harper Lee"
+      },
+      "year": 1960,
+      "genre": "Southern Gothic, Bildungsroman"
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": {
+        "id": 3,
+        "name": "George Orwell"
+      },
+      "year": 1949,
+      "genre": "Dystopian, political fiction, social science fiction"
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": {
+        "id": 4,
+        "name": "Jane Austen"
+      },
+      "year": 1813,
+      "genre": "Romantic fiction"
+    },
+    {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": {
+        "id": 5,
+        "name": "J.D. Salinger"
+      },
+      "year": 1951,
+      "genre": "Realistic fiction"
+    },
+    {
+      "id": 6,
+      "title": "The Hobbit",
+      "author": {
+        "id": 6,
+        "name": "J.R.R. Tolkien"
+      },
+      "year": 1937,
+      "genre": "Fantasy"
+    },
+    {
+      "id": 7,
+      "title": "Fahrenheit 451",
+      "author": {
+        "id": 7,
+        "name": "Ray Bradbury"
+      },
+      "year": 1953,
+      "genre": "Dystopian"
+    },
+    {
+      "id": 8,
+      "title": "Jane Eyre",
+      "author": {
+        "id": 8,
+        "name": "Charlotte Brontë"
+      },
+      "year": 1847,
+      "genre": "Gothic fiction"
+    },
+    {
+      "id": 9,
+      "title": "Brave New World",
+      "author": {
+        "id": 9,
+        "name": "Aldous Huxley"
+      },
+      "year": 1932,
+      "genre": "Dystopian"
+    },
+    {
+      "id": 10,
+      "title": "Moby-Dick",
+      "author": {
+        "id": 10,
+        "name": "Herman Melville"
+      },
+      "year": 1851,
+      "genre": "Adventure fiction"
+    },
+    {
+      "id": 11,
+      "title": "War and Peace",
+      "author": {
+        "id": 11,
+        "name": "Leo Tolstoy"
+      },
+      "year": 1869,
+      "genre": "Historical fiction"
+    },
+    {
+      "id": 12,
+      "title": "Crime and Punishment",
+      "author": {
+        "id": 12,
+        "name": "Fyodor Dostoevsky"
+      },
+      "year": 1866,
+      "genre": "Philosophical fiction"
+    },
+    {
+      "id": 13,
+      "title": "The Odyssey",
+      "author": {
+        "id": 13,
+        "name": "Homer"
+      },
+      "year": -800,
+      "genre": "Epic poetry"
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "F. Scott Fitzgerald",
+      "birthYear": 1896,
+      "nationality": "American",
+      "deathYear": 1940,
+      "notableWorks": ["The Great Gatsby", "Tender Is the Night"],
+      "bio": "F. Scott Fitzgerald was an American novelist and short story writer, widely regarded as one of the greatest American writers of the 20th century."
+    },
+    {
+      "id": 2,
+      "name": "Harper Lee",
+      "birthYear": 1926,
+      "nationality": "American",
+      "deathYear": 2016,
+      "notableWorks": ["To Kill a Mockingbird", "Go Set a Watchman"],
+      "bio": "Harper Lee was an American novelist best known for her 1960 novel To Kill a Mockingbird, which won the 1961 Pulitzer Prize."
+    },
+    {
+      "id": 3,
+      "name": "George Orwell",
+      "birthYear": 1903,
+      "nationality": "British",
+      "deathYear": 1950,
+      "notableWorks": ["1984", "Animal Farm"],
+      "bio": "George Orwell was an English novelist, essayist, journalist, and critic, best known for his dystopian novels 1984 and Animal Farm."
+    },
+    {
+      "id": 4,
+      "name": "Jane Austen",
+      "birthYear": 1775,
+      "nationality": "British",
+      "deathYear": 1817,
+      "notableWorks": ["Pride and Prejudice", "Sense and Sensibility"],
+      "bio": "Jane Austen was an English novelist known primarily for her six major novels which interpret, critique and comment upon the British landed gentry at the end of the 18th century."
+    },
+    {
+      "id": 6,
+      "name": "J.R.R. Tolkien",
+      "birthYear": 1892,
+      "nationality": "British",
+      "deathYear": 1973,
+      "notableWorks": ["The Hobbit", "The Lord of the Rings"],
+      "bio": "J.R.R. Tolkien was an English writer, poet, philologist, and academic, best known as the author of the high-fantasy works The Hobbit and The Lord of the Rings."
+    },
+    {
+      "id": 8,
+      "name": "Leo Tolstoy",
+      "birthYear": 1828,
+      "nationality": "Russian",
+      "deathYear": 1910,
+      "notableWorks": ["War and Peace", "Anna Karenina"],
+      "bio": "Leo Tolstoy was a Russian writer who is regarded as one of the greatest authors of all time. He is best known for his novels War and Peace and Anna Karenina."
+    },
+    {
+      "id": 10,
+      "name": "Herman Melville",
+      "birthYear": 1819,
+      "nationality": "American",
+      "deathYear": 1891,
+      "notableWorks": ["Moby-Dick", "Bartleby, the Scrivener"],
+      "bio": "Herman Melville was an American novelist, short story writer, and poet of the American Renaissance period. His best-known works include Moby-Dick and Bartleby, the Scrivener."
+    },
+    {
+      "id": 12,
+      "name": "Fyodor Dostoevsky",
+      "birthYear": 1821,
+      "nationality": "Russian",
+      "deathYear": 1881,
+      "notableWorks": ["Crime and Punishment", "The Brothers Karamazov"],
+      "bio": "Fyodor Dostoevsky was a Russian novelist, short story writer, essayist, and journalist. His literary works explore human psychology in the troubled political, social, and spiritual atmospheres of 19th-century Russia."
+    },
+    {
+      "id": 13,
+      "name": "Homer",
+      "birthYear": null,
+      "nationality": "Greek",
+      "deathYear": null,
+      "notableWorks": ["The Iliad", "The Odyssey"],
+      "bio": "Homer is the legendary author of the Iliad and the Odyssey, two epic poems that are the central works of ancient Greek literature."
+    }
+  ],
+  "errors": {
+    "ERR001": "Invalid input. Please check the data and try again.",
+    "ERR002": "User not found. Please register before logging in.",
+    "ERR003": "Access denied. You do not have the necessary permissions.",
+    "ERR004": "Server error. Please try again later.",
+    "ERR005": "Resource not available. Please check the URL and try again."
+  }
+}
