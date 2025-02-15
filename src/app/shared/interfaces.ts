@@ -20,3 +20,8 @@ export interface AuthorDetails {
   notableWorks: string[];
   bio: string;
 }
+
+export interface IError {
+  errorCode: string[];
+  errorMessage: string;
+}

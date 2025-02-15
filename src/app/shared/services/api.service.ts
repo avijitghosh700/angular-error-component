@@ -32,7 +32,7 @@ export class ApiService {
         tap({
           error: (error) => {
             this.errorService.setErrorMessage(
-              error.status === 404 ? 'ERR005' : 'ERR004',
+              error.status === 404 ? 'ERR017' : 'ERR004',
             );
           },
         }),

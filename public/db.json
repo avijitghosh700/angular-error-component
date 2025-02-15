@@ -214,11 +214,266 @@
       "bio": "Homer is the legendary author of the Iliad and the Odyssey, two epic poems that are the central works of ancient Greek literature."
     }
   ],
-  "errors": {
-    "ERR001": "Invalid input. Please check the data and try again.",
-    "ERR002": "User not found. Please register before logging in.",
-    "ERR003": "Access denied. You do not have the necessary permissions.",
-    "ERR004": "Server error. Please try again later.",
-    "ERR005": "Resource not available. Please check the URL and try again."
-  }
+  "errors": [
+    {
+      "errorCode": ["ERR267", "ERR264", "ERR266", "ERR265"],
+      "errorMessage": "Processing error. There was an error processing the request."
+    },
+    {
+      "errorCode": ["ERR005", "ERR003", "ERR004", "ERR002", "ERR001"],
+      "errorMessage": "Invalid input. Please check the data and try again."
+    },
+    {
+      "errorCode": ["ERR246", "ERR245", "ERR244", "ERR243"],
+      "errorMessage": "Timeout error. The operation timed out."
+    },
+    {
+      "errorCode": ["ERR015", "ERR013", "ERR014"],
+      "errorMessage": "Server error. Please try again later."
+    },
+    {
+      "errorCode": ["ERR073", "ERR072", "ERR074"],
+      "errorMessage": "Invalid format. The data format is not valid."
+    },
+    {
+      "errorCode": ["ERR249", "ERR247", "ERR248"],
+      "errorMessage": "Unavailable resource. The requested resource is unavailable."
+    },
+    {
+      "errorCode": ["ERR106", "ERR103", "ERR105", "ERR104"],
+      "errorMessage": "Service error. There was an error with the service."
+    },
+    {
+      "errorCode": ["ERR085", "ERR082", "ERR084", "ERR083"],
+      "errorMessage": "Service timeout. The service did not respond in time."
+    },
+    {
+      "errorCode": ["ERR109", "ERR107", "ERR108"],
+      "errorMessage": "Data error. There was an error with the data provided."
+    },
+    {
+      "errorCode": ["ERR087", "ERR086", "ERR088"],
+      "errorMessage": "Invalid request. The request is not valid."
+    },
+    {
+      "errorCode": ["ERR032", "ERR031", "ERR033", "ERR030"],
+      "errorMessage": "Payment required. Please complete the payment to proceed."
+    },
+    {
+      "errorCode": ["ERR043", "ERR041", "ERR042", "ERR040"],
+      "errorMessage": "Quota exceeded. You have exceeded your usage quota."
+    },
+    {
+      "errorCode": ["ERR022", "ERR020", "ERR021"],
+      "errorMessage": "Duplicate entry. The record already exists."
+    },
+    {
+      "errorCode": ["ERR081", "ERR079", "ERR080"],
+      "errorMessage": "Operation failed. The operation could not be completed."
+    },
+    {
+      "errorCode": ["ERR060", "ERR058", "ERR059"],
+      "errorMessage": "Configuration error. Please check your configuration settings."
+    },
+    {
+      "errorCode": ["ERR053", "ERR051", "ERR052", "ERR050"],
+      "errorMessage": "Unsupported operation. This operation is not supported."
+    },
+    {
+      "errorCode": ["ERR026", "ERR023", "ERR025", "ERR024"],
+      "errorMessage": "Timeout error. The request took too long to process."
+    },
+    {
+      "errorCode": ["ERR067", "ERR065", "ERR066"],
+      "errorMessage": "File not found. The requested file could not be found."
+    },
+    {
+      "errorCode": ["ERR050", "ERR048", "ERR049", "ERR047"],
+      "errorMessage": "Session expired. Please log in again."
+    },
+    {
+      "errorCode": ["ERR057", "ERR054", "ERR056", "ERR055"],
+      "errorMessage": "Dependency error. A required dependency is missing."
+    },
+    {
+      "errorCode": ["ERR113", "ERR110", "ERR112", "ERR111"],
+      "errorMessage": "Request error. There was an error with the request."
+    },
+    {
+      "errorCode": ["ERR123", "ERR121", "ERR122"],
+      "errorMessage": "Conflict error. There was a conflict with the request."
+    },
+    {
+      "errorCode": ["ERR092", "ERR089", "ERR091", "ERR090"],
+      "errorMessage": "Authentication failed. Please check your credentials."
+    },
+    {
+      "errorCode": ["ERR095", "ERR093", "ERR094"],
+      "errorMessage": "Permission denied. You do not have permission to perform this action."
+    },
+    {
+      "errorCode": ["ERR130", "ERR128", "ERR129"],
+      "errorMessage": "Unavailable error. The service is currently unavailable."
+    },
+    {
+      "errorCode": ["ERR134", "ERR131", "ERR133", "ERR132"],
+      "errorMessage": "Internal error. There was an internal error."
+    },
+    {
+      "errorCode": ["ERR137", "ERR135", "ERR136"],
+      "errorMessage": "External error. There was an error with an external service."
+    },
+    {
+      "errorCode": ["ERR141", "ERR138", "ERR140", "ERR139"],
+      "errorMessage": "Timeout error. The operation timed out."
+    },
+    {
+      "errorCode": ["ERR148", "ERR145", "ERR147", "ERR146"],
+      "errorMessage": "Invalid response. The response received is not valid."
+    },
+    {
+      "errorCode": ["ERR151", "ERR149", "ERR150"],
+      "errorMessage": "Service error. There was an error with the service."
+    },
+    {
+      "errorCode": ["ERR155", "ERR152", "ERR154", "ERR153"],
+      "errorMessage": "Data error. There was an error with the data provided."
+    },
+    {
+      "errorCode": ["ERR158", "ERR156", "ERR157"],
+      "errorMessage": "Request error. There was an error with the request."
+    },
+    {
+      "errorCode": ["ERR162", "ERR159", "ERR161", "ERR160"],
+      "errorMessage": "Processing error. There was an error processing the request."
+    },
+    {
+      "errorCode": ["ERR165", "ERR163", "ERR164"],
+      "errorMessage": "Service unavailable. The service is currently unavailable."
+    },
+    {
+      "errorCode": ["ERR169", "ERR166", "ERR168", "ERR167"],
+      "errorMessage": "Invalid input. The input provided is not valid."
+    },
+    {
+      "errorCode": ["ERR172", "ERR170", "ERR171"],
+      "errorMessage": "User not authorized. You do not have the necessary authorization."
+    },
+    {
+      "errorCode": ["ERR176", "ERR173", "ERR175", "ERR174"],
+      "errorMessage": "Access restricted. Access to the resource is restricted."
+    },
+    {
+      "errorCode": ["ERR179", "ERR177", "ERR178"],
+      "errorMessage": "Server maintenance. The server is currently under maintenance."
+    },
+    {
+      "errorCode": ["ERR183", "ERR180", "ERR182", "ERR181"],
+      "errorMessage": "Resource moved. The resource has been moved to a new location."
+    },
+    {
+      "errorCode": ["ERR186", "ERR184", "ERR185"],
+      "errorMessage": "Invalid session. The session is not valid."
+    },
+    {
+      "errorCode": ["ERR190", "ERR187", "ERR189", "ERR188"],
+      "errorMessage": "Quota limit reached. You have reached your quota limit."
+    },
+    {
+      "errorCode": ["ERR193", "ERR191", "ERR192"],
+      "errorMessage": "Invalid operation. The operation is not allowed."
+    },
+    {
+      "errorCode": ["ERR197", "ERR194", "ERR196", "ERR195"],
+      "errorMessage": "Service disruption. The service is currently disrupted."
+    },
+    {
+      "errorCode": ["ERR200", "ERR198", "ERR199"],
+      "errorMessage": "Invalid request format. The request format is not valid."
+    },
+    {
+      "errorCode": ["ERR204", "ERR201", "ERR203", "ERR202"],
+      "errorMessage": "Resource conflict. There is a conflict with the resource."
+    },
+    {
+      "errorCode": ["ERR207", "ERR205", "ERR206"],
+      "errorMessage": "Invalid data. The data provided is not valid."
+    },
+    {
+      "errorCode": ["ERR211", "ERR208", "ERR210", "ERR209"],
+      "errorMessage": "Service error. There was an error with the service."
+    },
+    {
+      "errorCode": ["ERR214", "ERR212", "ERR213"],
+      "errorMessage": "Data error. There was an error with the data provided."
+    },
+    {
+      "errorCode": ["ERR218", "ERR215", "ERR217", "ERR216"],
+      "errorMessage": "Request error. There was an error with the request."
+    },
+    {
+      "errorCode": ["ERR221", "ERR219", "ERR220"],
+      "errorMessage": "Processing error. There was an error processing the request."
+    },
+    {
+      "errorCode": ["ERR225", "ERR222", "ERR224", "ERR223"],
+      "errorMessage": "Validation error. The data provided did not pass validation."
+    },
+    {
+      "errorCode": ["ERR228", "ERR226", "ERR227"],
+      "errorMessage": "Conflict error. There was a conflict with the request."
+    },
+    {
+      "errorCode": ["ERR232", "ERR229", "ERR231", "ERR230"],
+      "errorMessage": "Limit exceeded. You have exceeded the allowed limit."
+    },
+    {
+      "errorCode": ["ERR235", "ERR233", "ERR234"],
+      "errorMessage": "Unavailable error. The service is currently unavailable."
+    },
+    {
+      "errorCode": ["ERR239", "ERR236", "ERR238", "ERR237"],
+      "errorMessage": "Internal error. There was an internal error."
+    },
+    {
+      "errorCode": ["ERR242", "ERR240", "ERR241"],
+      "errorMessage": "External error. There was an error with an external service."
+    },
+    {
+      "errorCode": ["ERR008", "ERR006", "ERR007"],
+      "errorMessage": "User not found. Please register before logging in."
+    },
+    {
+      "errorCode": ["ERR012", "ERR009", "ERR011", "ERR010"],
+      "errorMessage": "Access denied. You do not have the necessary permissions."
+    },
+    {
+      "errorCode": ["ERR019", "ERR016", "ERR018", "ERR017"],
+      "errorMessage": "Resource not available."
+    },
+    {
+      "errorCode": ["ERR036", "ERR034", "ERR035"],
+      "errorMessage": "Service unavailable. Please try again later."
+    },
+    {
+      "errorCode": ["ERR039", "ERR037", "ERR038"],
+      "errorMessage": "Data conflict. The data provided conflicts with existing records."
+    },
+    {
+      "errorCode": ["ERR046", "ERR044", "ERR045"],
+      "errorMessage": "Invalid token. Please provide a valid authentication token."
+    },
+    {
+      "errorCode": ["ERR120", "ERR117", "ERR119", "ERR118"],
+      "errorMessage": "Validation error. The data provided did not pass validation."
+    },
+    {
+      "errorCode": ["ERR053", "ERR051", "ERR052", "ERR050"],
+      "errorMessage": "Unsupported operation. This operation is not supported."
+    },
+    {
+      "errorCode": ["ERR127", "ERR124", "ERR126", "ERR125"],
+      "errorMessage": "Limit exceeded. You have exceeded the allowed limit."
+    }
+  ]
 }
